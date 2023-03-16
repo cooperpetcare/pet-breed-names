@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "name": "pet-breed-names",
+  "version": "1.0.0",
+  "description": "Dog and cat breed names",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cooperpetcare/pet-breed-names.git"
+  },
+  "keywords": [
+    "pet",
+    "breed",
+    "dog",
+    "cat"
+  ],
+  "author": "Cooper Pet Care",
+  "license": "MIT"
+}
