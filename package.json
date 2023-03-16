@@ -8,6 +8,7 @@
     "type": "git",
     "url": "git@github.com:cooperpetcare/pet-breed-names.git"
   },
+  "homepage": "https://cooperpetcare.com/engineering/pet-breed-names/",
   "keywords": [
     "pet",
     "breed",
