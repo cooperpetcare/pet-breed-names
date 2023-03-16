@@ -1,18 +1,3 @@
-export const randomDogBreed = (lang = 'en') => {
-  const values = dogBreeds[lang];
-  return values[Math.floor(Math.random() * values.length)]
-};
-
-export const randomCatBreed = (lang = 'en') => {
-  const values = catBreeds[lang];
-  return values[Math.floor(Math.random() * values.length)]
-};
-
-export const breeds = {
-  dog: dogBreeds,
-  cat: catBreeds,
-};
-
 export const dogBreeds = {
   en: [
     'Mixed / Other',
@@ -1001,4 +986,19 @@ export const catBreeds = {
     "Turkse Angora",
     "Turkse Van",
   ]
+};
+
+export const randomDogBreed = (lang = 'en') => {
+  const values = dogBreeds[lang];
+  return values[Math.floor(Math.random() * values.length)]
+};
+
+export const randomCatBreed = (lang = 'en') => {
+  const values = catBreeds[lang];
+  return values[Math.floor(Math.random() * values.length)]
+};
+
+export const breeds = {
+  dog: dogBreeds,
+  cat: catBreeds,
 };
